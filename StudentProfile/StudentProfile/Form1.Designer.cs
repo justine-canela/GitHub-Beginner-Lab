@@ -31,6 +31,7 @@
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -59,11 +60,21 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(142, 152);
+            label2.Name = "label2";
+            label2.Size = new Size(168, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Contact Number: 09171234567";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
@@ -79,5 +90,6 @@
         private Label label1;
         private TextBox textBox1;
         private Button button1;
+        private Label label2;
     }
 }
