@@ -38,24 +38,27 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(122, 119);
+            label1.Location = new Point(174, 198);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(73, 15);
+            label1.Size = new Size(122, 25);
             label1.TabIndex = 0;
             label1.Text = "09171234567";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(344, 116);
+            textBox1.Location = new Point(491, 193);
+            textBox1.Margin = new Padding(4, 5, 4, 5);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(141, 31);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            button1.Location = new Point(236, 180);
+            button1.Location = new Point(337, 300);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(107, 38);
             button1.TabIndex = 2;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -64,31 +67,34 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(142, 152);
+            label2.Location = new Point(203, 253);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(168, 15);
+            label2.Size = new Size(262, 25);
             label2.TabIndex = 3;
             label2.Text = "Contact Number: 09171234567";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(200, 237);
+            label3.Location = new Point(286, 395);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(100, 15);
+            label3.Size = new Size(148, 25);
             label3.TabIndex = 4;
-            label3.Text = "Position:Manager";
+            label3.Text = "Position:Registrar";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
